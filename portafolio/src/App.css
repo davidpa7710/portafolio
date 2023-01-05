@@ -26,10 +26,12 @@
 
 h1 {
   font-weight: 500;
+  font-size: 4em;
 }
 
 h2 {
   font-weight: 400;
+  font-size: 2.5em;
 }
 
 .btn-main {
@@ -43,7 +45,29 @@ h2 {
 }
 
 .btn-main:hover {
-  background-color: var(--graycolor);
+  background-color: #8d2b18;
   cursor: pointer;
   transition: 0.5s;
+}
+.bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        var(--bluecolor) 0%, 
+        rgba(87,111,230,1) 25%, 
+        var(--graycolor) 51%, 
+        var(--lowgraycolor) 100%
+  );  
+  animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
