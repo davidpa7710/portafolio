@@ -19,10 +19,23 @@
 .App {
   background-color: var(--bluecolor);
   color: var(--principalfontcolor);
-  display: grid;
-  grid-template-columns: 2;
-  padding: 3rem;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        var(--bluecolor) 0%, 
+        rgba(87,111,230,1) 25%, 
+        var(--graycolor) 51%, 
+        var(--lowgraycolor) 100%
+  );  
+  animation: AnimateBG 20s ease infinite;
 }
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
 
 h1 {
   font-weight: 500;
@@ -49,25 +62,35 @@ h2 {
   cursor: pointer;
   transition: 0.5s;
 }
-.bg {
-  width: 100%;
-  height: 100vh;
-  display: flex;
+ 
+.hero{
+  position: relative;
+  top: 5rem;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.card{
+  margin-top: 205px;
+  padding: 1rem 2rem;
+  background-color: red;
+  width: 550px;
+  height: 500px;
   align-items: center;
   justify-content: center;
-  background-size: 300% 300%;
-  background-image: linear-gradient(
-        -45deg, 
-        var(--bluecolor) 0%, 
-        rgba(87,111,230,1) 25%, 
-        var(--graycolor) 51%, 
-        var(--lowgraycolor) 100%
-  );  
-  animation: AnimateBG 20s ease infinite;
+  text-align: center;
 }
-
-@keyframes AnimateBG { 
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+.card:hover{
+  cursor: pointer;
+  background-color: #2C394B;
+  transition: 0.5s;
+}
+.card_slider{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 0px ;
 }
