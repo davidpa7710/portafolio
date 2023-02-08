@@ -2,6 +2,7 @@ import * as Reveal from 'react-reveal'
 import './App.css'
 import Card from './components/Card'
 import Content_card from './components/Content_card'
+import Proyect_Card from './components/Proyect_Card'
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       </Reveal.Slide>
       <Reveal.Fade right>
 
-      <h2 className="title_card">Principal Knockledge</h2>
+        <h2 className="title_card">Principal Knockledge</h2>
       </Reveal.Fade>
       <div className='card_slider'>
         <Reveal.Fade left>
@@ -36,8 +37,13 @@ function App() {
       </div>
       <Reveal.Roll>
         <Content_card />
-
       </Reveal.Roll>
+      <div className='card_slider2'>
+      <Proyect_Card />
+      <Proyect_Card />
+      <Proyect_Card />
+      </div>
+
     </div >
   )
 }

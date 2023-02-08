@@ -132,3 +132,10 @@ h2 {
   bottom: 250px;
   left: 155px;
 }
+.card_slider2{
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-columns: minmax(100px, auto);
+}
