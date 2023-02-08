@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Varela+Round&display=swap');
-
-body {
-  font-family: "Tajawal", Arial;
+.card_react{
+  margin: 50px 100px 0 100px;
+  padding: 100px;
+}
+.react-logo{
+  width: 150px;
+  height: 150px;
+}
+.card_react p {
+  font-weight: 200;
+  font-size: 18px;
 }
