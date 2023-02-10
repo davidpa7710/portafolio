@@ -17,7 +17,7 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
-.App {
+.home {
   background-color: var(--bluecolor);
   color: var(--principalfontcolor);
   background-size: 300% 300%;
@@ -29,6 +29,7 @@
         var(--lowgraycolor) 100%
   );  
   animation: AnimateBG 20s ease infinite;
+  padding-bottom: 70px;
 }
 
 @keyframes AnimateBG { 

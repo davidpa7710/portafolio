@@ -1,15 +1,16 @@
 
 .footer{
-    margin-top: 50px;
     background-color: #205E61;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 250px;
     padding: 50px 150px;
     font-weight: 400;
+    color: aliceblue;
 }
 .footer li{
-    margin-top: 1vh;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
     list-style: none;
     touch-action: manipulation;
 }
@@ -24,6 +25,9 @@
     text-align: center;
     margin-top: 50px;
     margin-left: 420px;
+    font-weight: 200;
+}
+p{
     font-weight: 200;
 }
 .brands{
