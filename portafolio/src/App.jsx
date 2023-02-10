@@ -3,6 +3,7 @@ import './App.css'
 import Card from './components/Card'
 import Content_card from './components/Content_card'
 import Proyect_Card from './components/Proyect_Card'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -43,8 +44,8 @@ function App() {
       <Proyect_Card />
       <Proyect_Card />
       </div>
-
-    </div >
+      <Footer />
+  </div >
   )
 }
 

@@ -1,5 +1,6 @@
 .website_card{
-    border: 1px solid red;
+    background-color: #404258;
+    border-radius: 10%;
     padding: 40px;
     width: 500px;
     height: 600px;

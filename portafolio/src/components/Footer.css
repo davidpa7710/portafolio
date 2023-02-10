@@ -1,0 +1,28 @@
+
+.footer{
+    margin-top: 50px;
+    background-color: #205E61;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 250px;
+    padding: 50px 150px;
+    font-weight: 400;
+}
+.footer li{
+    margin-top: 1vh;
+    list-style: none;
+    touch-action: manipulation;
+}
+.footer li:hover{
+    color: #3C84AB;
+    text-decoration: underline; 
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.copyright{
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 420px;
+    font-weight: 200;
+}
