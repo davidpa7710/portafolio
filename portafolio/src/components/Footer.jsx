@@ -11,18 +11,26 @@ const Footer = () => {
                 <li>About</li>
                 <p>hello@mail.me</p>
             </ul>
-            <ul className="brands"> 
+            <ul className="brands">
                 <li>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/davidpacl3097" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
                 </li>
                 <li>
-                    <i class="fa-brands fa-twitter" />
+                    <a href="https://twitter.com/davidpa56" target="_blank">
+                        <i class="fa-brands fa-twitter" />
+                    </a>
                 </li>
                 <li>
+                    <a href="https://www.instagram.com/david.pa56/" target="_blank"> 
                     <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </li>
                 <li>
+                    <a href="https://github.com/davidpa7710" target="_blank">
                     <i class="fa-brands fa-github"></i>
+                    </a>
                 </li>
             </ul>
             <p className="copyright">David Palacios© 2023</p>

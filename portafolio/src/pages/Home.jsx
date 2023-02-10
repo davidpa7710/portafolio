@@ -2,6 +2,7 @@ import * as Reveal from 'react-reveal'
 import Card from '../components/Card'
 import Content_card from '../components/Content_card'
 import Proyect_Card from '../components/Proyect_Card'
+import { Link } from 'react-router-dom'
 
 
 function Home () {

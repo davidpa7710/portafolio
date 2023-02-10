@@ -8,13 +8,17 @@
     font-weight: 400;
     color: aliceblue;
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .footer li{
     margin-top: 1.5vh;
     margin-bottom: 2vh;
     list-style: none;
     touch-action: manipulation;
 }
-.footer li:hover{
+.footer a:hover, li:hover{
     color: #3C84AB;
     text-decoration: underline; 
     cursor: pointer;
