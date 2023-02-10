@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 
+
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -9,13 +11,19 @@ const Footer = () => {
                 <li>About</li>
                 <li>hello@mail.me</li>
             </ul>
-            <ul>
+            <ul className="brands"> 
                 <li>
-                    Linkendin
+                    <i class="fa-brands fa-linkedin"></i>
                 </li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Github</li>
+                <li>
+                    <i class="fa-brands fa-twitter" />
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                </li>
             </ul>
             <p className="copyright">David Palacios© 2023</p>
         </div>
