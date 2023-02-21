@@ -40,9 +40,8 @@
 
 
 h1 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 4em;
-  font-weight: 500;
 }
 
 h2 {
@@ -139,4 +138,8 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   grid-auto-columns: minmax(100px, auto);
+}
+.name{
+  color: #3E54AC;
+  font-weight: 400;
 }

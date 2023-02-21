@@ -44,7 +44,7 @@
 	 padding: 0;
 }
  body .container .card .face.face1 .java {
-	 background-color: #fffc00;
+	 background-color: #FF6E31;
 	 background-clip: text;
 	 -webkit-text-fill-color: transparent;
 }
@@ -54,7 +54,7 @@
 	 -webkit-text-fill-color: transparent;
 }
  body .container .card .face.face1 .cSharp {
-	 background-color: #fc00ff;
+	 background-color: #FFE15D;
 	 background-clip: text;
 	 -webkit-text-fill-color: transparent;
 }
