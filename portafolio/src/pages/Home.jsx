@@ -21,7 +21,7 @@ function Home () {
             <h1>Hello <br></br>
             I´m <b className='name'>David Palacios</b></h1>
             <h2>- FrontEnd Developer</h2>
-            <p>Es es mi portafolio con un pequeño ejemplo de lo que e realizado como FrontEnd Developer</p>
+            <p>This is my portfolio with a small example of what I have done as a <br /> FrontEnd Developer</p>
           </Reveal.Zoom>
           <button type='button' className='btn-main' onClick={handleSubmit}> Contactame </button>
         </div>
