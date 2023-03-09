@@ -28,7 +28,11 @@ function Home () {
         <div className='about_me'>
           <Reveal.Zoom cascade top right>
             <h2> About Me </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit eligendi repellat beatae libero adipisci cupiditate facilis numquam, architecto labore error ullam, quaerat excepturi mollitia veritatis. Harum ad doloremque magnam delectus tempora adipisci nulla, dolores ipsam sunt saepe atque laboriosam, quis optio dicta qui, nam debitis!</p>
+            <p>I'm a front end developer specialized in javascript and in the react 
+              framework I have experience in page layout as well as in the use of Adobe and Figma tools, 
+              I'm passionate about technology and the visual beauty of the web, 
+              I'm also fascinated by Formula 1 and Video Games, <br />     
+              I'm currently learning React Native for mobile development</p> 
           </Reveal.Zoom>
         </div>
       </Reveal.Slide>
@@ -46,11 +50,6 @@ function Home () {
       </Reveal.Roll>
       <div className='card_slider2'>
         <Reveal.Fade right>
-          <Proyect_Card />
-          <Proyect_Card />
-        </Reveal.Fade>
-        <Reveal.Fade left>
-          <Proyect_Card />
           <Proyect_Card />
         </Reveal.Fade>
       </div>
