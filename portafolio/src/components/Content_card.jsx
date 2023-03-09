@@ -10,11 +10,10 @@ function Content_card() {
             </Reveal.Rotate>
             <Reveal.Zoom cascade top left>
                 <h2>Frontend FrameWork React</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Adipisci ad beatae cupiditate cumque ex quaerat sequi itaquefacere doloribus enim! Fuga ullam voluptatum quaerat cupiditate obcaecati
-                    ipsa culpa deleniti assumenda nam commodi repellat, suscipit itaque
-                    provident veritatis. Aperiam tenetur deleniti atque quos, ab maxime
-                    sapiente voluptatum aspernatur esse rem laboriosam.</p>
+                <p>I use React as the main FrontEnd Framework through the use of Hooks and classes, 
+                    I can develop React natively or using Next.JS or Vite for better code performance 
+                    and agile development, 
+                    I apply development methodologies to maintain the page at same as for continuous development</p>
             </Reveal.Zoom>
         </div>
     )

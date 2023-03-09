@@ -9,7 +9,7 @@ const Footer = () => {
             <ul>
                 <li>Contact</li>
                 <li>About</li>
-                <p>hello@mail.me</p>
+                <p>davidpa7710@gmail.com</p>
             </ul>
             <ul className="brands">
                 <li>

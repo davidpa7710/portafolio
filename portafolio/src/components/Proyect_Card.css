@@ -2,18 +2,19 @@
     background-color: #404258;
     border-radius: 10%;
     padding: 40px;
-    width: 500px;
+    width: 550px;
     height: 670px;
     font-weight: lighter;
     text-align: center;
     margin-left: 10px;
 }
 .website_card img{
-    width: 400px;
-    height: 280px;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 1rem;
 }
 .button-40 {
-  margin-top: 10px;
+  margin-top: 2rem;
   background-color: #111827;
   border: 1px solid transparent;
   border-radius: .75rem;
@@ -39,6 +40,12 @@
 
 .button-40:hover {
   background-color: #374151;
+}
+.icons{
+  margin-top: 1rem;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .button-40:focus {
