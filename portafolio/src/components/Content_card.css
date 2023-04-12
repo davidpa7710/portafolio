@@ -1,13 +1,39 @@
-.card_react{
+.card_react {
   margin: 50px 100px 0 100px;
   padding: 100px;
 }
-.react-logo{
+
+.react-logo {
   width: 150px;
   height: 150px;
 }
+
 .card_react p {
   margin-top: 1rem;
   font-weight: 200;
   font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .card_react {
+    margin: 50px 20px 0 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .react-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card_react p {
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
 }
