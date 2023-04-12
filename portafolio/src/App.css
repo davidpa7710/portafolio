@@ -174,15 +174,15 @@ h2 {
   
   h1 {
     font-weight: 400;
-    font-size: 2em; /* Decrease font size */
-    padding: 1em; /* Add padding */
+    font-size: 2em; 
+    padding: 1em; 
   }
   
   h2 {
     font-weight: 300;
-    font-size: 1.5em; /* Decrease font size */
-    padding: 0.5em; /* Add padding */
-    line-height: 1.2; /* Decrease line-height */
+    font-size: 1.5em;
+    padding: 0.5em; 
+    line-height: 1.2; 
   }
   
   .btn-main {
