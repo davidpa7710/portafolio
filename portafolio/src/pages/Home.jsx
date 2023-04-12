@@ -15,7 +15,7 @@ function Home () {
   return (
     <div className="home">
       <Reveal.Slide cascade top>
-        <img src='https://zhargullqfwuquyqmofs.supabase.co/storage/v1/object/sign/imagnes-data/Computer%20user.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnbmVzLWRhdGEvQ29tcHV0ZXIgdXNlci5wbmciLCJpYXQiOjE2NzcwMDgyODcsImV4cCI6MTcwODU0NDI4N30.glaQ0_obKtc0L1FU_sD2sU5tOUb95SG7L1krKr2zggs&t=2023-02-21T19%3A38%3A08.008Z' alt='img_c' className='computer_logo'></img>
+        <img src='https://zhargullqfwuquyqmofs.supabase.co/storage/v1/object/sign/imagenes/Computer%20user.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZW5lcy9Db21wdXRlciB1c2VyLnBuZyIsImlhdCI6MTY4MTI1OTMzMSwiZXhwIjoxNzEyNzk1MzMxfQ.XSQtv_ZIIlCUzWsVzitl4m4Ig2epcP-ym1xjNLLdEvM&t=2023-04-12T00%3A28%3A51.654Z' alt='img_c' className='computer_logo'></img>
         <div className="hero">
           <Reveal.Zoom cascade top left>
             <h1>Hello <br></br>
