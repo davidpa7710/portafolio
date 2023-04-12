@@ -143,3 +143,122 @@ h2 {
   color: #3E54AC;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .home {
+    background-color: var(--bluecolor);
+    color: var(--principalfontcolor);
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+      -45deg,
+      var(--bluecolor) 0%,
+      rgba(87, 111, 230, 1) 25%,
+      var(--graycolor) 51%,
+      var(--lowgraycolor) 100%
+    );
+    animation: AnimateBG 20s ease infinite;
+    padding-bottom: 70px;
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  h1 {
+    font-weight: 400;
+    font-size: 2em; /* Decrease font size */
+    padding: 1em; /* Add padding */
+  }
+  
+  h2 {
+    font-weight: 300;
+    font-size: 1.5em; /* Decrease font size */
+    padding: 0.5em; /* Add padding */
+    line-height: 1.2; /* Decrease line-height */
+  }
+  
+  .btn-main {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: aliceblue;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1em; /* Decrease font size */
+    line-height: 1.2; /* Decrease line-height */
+    margin-top: 20px;
+    min-height: 40px; /* Decrease height */
+    min-width: 0;
+    outline: none;
+    padding: 0.5em 1em; /* Decrease padding */
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%; /* Make it full-width */
+    will-change: transform;
+  }
+  
+  .btn-main:disabled {
+    pointer-events: none;
+  }
+  
+  .btn-main:hover {
+    color: #fff;
+    border: none;
+    background-color: #0a2647;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  .btn-main:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  .hero{
+    top: 2rem;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .about_me{
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .card_slider{
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px ;
+  }
+  .computer_logo{
+    width: 250px;
+    height: 250px;
+    position: static;
+    margin-bottom: 30px;
+  }
+  .card_slider2{
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    grid-auto-columns: minmax(100px, auto);
+  }
+}

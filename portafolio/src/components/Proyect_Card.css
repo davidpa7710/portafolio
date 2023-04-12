@@ -1,18 +1,25 @@
-.website_card{
-    background-color: #404258;
-    border-radius: 10%;
-    padding: 40px;
-    width: 550px;
-    height: 670px;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: 10px;
+.website-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
-.website_card img{
-    width: 450px;
-    height: 300px;
-    margin-bottom: 1rem;
+
+.website_card {
+  background-color: #404258;
+  border-radius: 10%;
+  padding: 40px;
+  width: 550px;
+  height: 670px;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: 3rem;
 }
+
+.website_card img {
+  width: 450px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
 .button-40 {
   margin-top: 2rem;
   background-color: #111827;
@@ -30,7 +37,7 @@
   text-decoration: none #6B7280 solid;
   text-decoration-thickness: auto;
   transition-duration: .2s;
-  transition-property: background-color,border-color,color,fill,stroke;
+  transition-property: background-color, border-color, color, fill, stroke;
   transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
   user-select: none;
   -webkit-user-select: none;
@@ -41,7 +48,8 @@
 .button-40:hover {
   background-color: #374151;
 }
-.icons{
+
+.icons {
   margin-top: 1rem;
   font-size: 32px;
   display: flex;
@@ -54,8 +62,35 @@
   outline-offset: 2px;
 }
 
-@media (min-width: 768px) {
-  .button-40 {
-    padding: .75rem 1.5rem;
+@media (max-width: 768px) {
+  .website-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
-}
+  
+  .website_card {
+  width: 90%;
+  height: auto;
+  margin: 2rem 0;
+  padding: 2rem;
+  }
+  
+  .website_card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  }
+  
+  .button-40 {
+  margin-top: 2rem;
+  padding: .75rem 1.2rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  }
+  
+  .icons {
+  margin-top: 1rem;
+  font-size: 24px;
+  }
+  }
