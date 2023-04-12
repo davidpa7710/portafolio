@@ -23,7 +23,7 @@ function Home () {
             <h2>- FrontEnd Developer</h2>
             <p>This is my portfolio with a small example of what I have done as a <br /> FrontEnd Developer</p>
           </Reveal.Zoom>
-          <button type='button' className='btn-main' onClick={handleSubmit}> Contactame </button>
+          <button type='button' className='btn-main' onClick={handleSubmit}> Contact Me </button>
         </div>
         <div className='about_me'>
           <Reveal.Zoom cascade top right>
